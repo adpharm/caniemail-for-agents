@@ -2,6 +2,10 @@
 
 ## 2026-04-24
 
+- feat: Added a top-level `.claude-plugin/plugin.json` manifest so the skill is installable as a Claude Code plugin (marketplace.json alone wasn't enough to drive `/plugin install`).
+
+- chore: Set project ownership to "The Adpharm INC" and replaced the `<you>` placeholder in README install commands with the real `adpharm` GitHub org, so the documented `/plugin marketplace add` and `git clone` commands are now copy-paste runnable.
+
 - feat: Initial release of the `caniemail-for-agents` Claude Code skill, giving coding agents grep-friendly access to caniemail.com email-client compatibility data without loading the full 10,000-line upstream JSON into context.
 
 - feat: Bundled a snapshot of caniemail.com data split into three agent-friendly artifacts — `index.md` (one line per feature for discovery), per-feature JSON files under `features/<slug>.json` (detail lookups), and a flat `support.tsv` table (cross-cutting queries like "everything Outlook 2019 breaks") — plus `nicenames.json` to map canonical keys to display names.

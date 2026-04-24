@@ -1,7 +1,8 @@
 {
   "name": "caniemail-for-agents",
   "owner": {
-    "name": "Ben Honda"
+    "name": "The Adpharm INC",
+    "email": "ben@theadpharm.com"
   },
   "plugins": [
     {

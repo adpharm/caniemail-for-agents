@@ -25,7 +25,7 @@ Plus a `SKILL.md` that teaches the agent the three query patterns.
 ### Option A — Claude Code plugin marketplace (recommended)
 
 ```
-/plugin marketplace add <you>/caniemail-for-agents
+/plugin marketplace add adpharm/caniemail-for-agents
 /plugin install caniemail-for-agents@caniemail-for-agents
 ```
 
@@ -33,10 +33,10 @@ Plus a `SKILL.md` that teaches the agent the three query patterns.
 
 ```bash
 # per-user (available in every project)
-git clone https://github.com/<you>/caniemail-for-agents ~/.claude/skills/caniemail-for-agents
+git clone https://github.com/adpharm/caniemail-for-agents ~/.claude/skills/caniemail-for-agents
 
 # or per-project (scoped to one repo)
-git clone https://github.com/<you>/caniemail-for-agents .claude/skills/caniemail-for-agents
+git clone https://github.com/adpharm/caniemail-for-agents .claude/skills/caniemail-for-agents
 ```
 
 Either way, the skill triggers automatically when the agent is working on HTML email and a compatibility question comes up.
