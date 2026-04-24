@@ -2,6 +2,10 @@
 
 ## 2026-04-24
 
+- feat: Added support for the `npx skills add adpharm/caniemail-for-agents` install path, letting users install the skill from any Agent-Skills-compatible client (Cursor, VS Code/Copilot, Codex, Gemini CLI, Amp, Goose, Claude Code) — previously the only install surface was the Claude Code plugin marketplace.
+
+- refactor: Moved the skill contents (SKILL.md + bundled caniemail data) out of the repo root and into `skills/caniemail-for-agents/`, so that `npx skills add` only pulls the skill directory instead of also pulling the repo's README, LICENSE, CI workflows, and build tooling. `scripts/build_index.py` now writes into the new location.
+
 - feat: Added a top-level `.claude-plugin/plugin.json` manifest so the skill is installable as a Claude Code plugin (marketplace.json alone wasn't enough to drive `/plugin install`).
 
 - chore: Set project ownership to "The Adpharm INC" and replaced the `<you>` placeholder in README install commands with the real `adpharm` GitHub org, so the documented `/plugin marketplace add` and `git clone` commands are now copy-paste runnable.

@@ -19,7 +19,13 @@ DATA_URL = "https://www.caniemail.com/api/data.json"
 
 
 def main() -> None:
-    out_dir = Path(__file__).resolve().parent.parent / "references" / "data"
+    out_dir = (
+        Path(__file__).resolve().parent.parent
+        / "skills"
+        / "caniemail-for-agents"
+        / "references"
+        / "data"
+    )
     features_dir = out_dir / "features"
     features_dir.mkdir(parents=True, exist_ok=True)
 

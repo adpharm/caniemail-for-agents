@@ -22,22 +22,22 @@ Plus a `SKILL.md` that teaches the agent the three query patterns.
 
 ## Install
 
-### Option A — Claude Code plugin marketplace (recommended)
+### Option A — `npx skills` (works across every Agent-Skills-compatible client)
+
+```bash
+npx skills add adpharm/caniemail-for-agents
+```
+
+Works on Claude Code, Cursor, VS Code / Copilot, Codex, Gemini CLI, Amp, Goose, and [every other client that supports the Agent Skills standard](https://agentskills.io). The CLI detects which agent you're using and installs to the right location.
+
+### Option B — Claude Code plugin marketplace
 
 ```
 /plugin marketplace add adpharm/caniemail-for-agents
 /plugin install caniemail-for-agents@caniemail-for-agents
 ```
 
-### Option B — manual git clone
-
-```bash
-# per-user (available in every project)
-git clone https://github.com/adpharm/caniemail-for-agents ~/.claude/skills/caniemail-for-agents
-
-# or per-project (scoped to one repo)
-git clone https://github.com/adpharm/caniemail-for-agents .claude/skills/caniemail-for-agents
-```
+Native Claude Code plugin install. Gives you versioned updates via `/plugin marketplace update`.
 
 Either way, the skill triggers automatically when the agent is working on HTML email and a compatibility question comes up.
 
@@ -65,26 +65,29 @@ Python 3.9+, stdlib only. No dependencies.
 ## Repo layout
 
 ```
-caniemail-for-agents/
-├── SKILL.md                           # what the agent reads
-├── README.md                          # this file
-├── LICENSE                            # MIT
+caniemail-for-agents/                       # repo root (human-facing)
+├── README.md
+├── LICENSE
 ├── .claude-plugin/
-│   └── marketplace.json               # Claude Code plugin marketplace manifest
+│   ├── marketplace.json                    # marketplace manifest (this repo is a marketplace)
+│   └── plugin.json                         # plugin manifest (this repo is the plugin)
 ├── .github/workflows/
-│   └── refresh-data.yml               # weekly cron → PR if caniemail changed
+│   └── refresh-data.yml                    # weekly cron → PR if caniemail changed
 ├── scripts/
-│   └── build_index.py                 # fetch + split
-└── references/
-    └── data/                          # generated output (checked in)
-        ├── index.md
-        ├── support.tsv
-        ├── nicenames.json
-        └── features/
-            └── <slug>.json            # 300+ files
+│   └── build_index.py                      # repo tooling: fetch + split
+└── skills/
+    └── caniemail-for-agents/               # the skill inside the plugin
+        ├── SKILL.md
+        └── references/
+            └── data/                       # generated output (checked in)
+                ├── index.md
+                ├── support.tsv
+                ├── nicenames.json
+                └── features/
+                    └── <slug>.json         # 300+ files
 ```
 
-The generated output is checked in on purpose — consumers shouldn't need to run Python or hit the network to use the skill.
+The skill is nested under `skills/caniemail-for-agents/` so that `npx skills add adpharm/caniemail-for-agents` only pulls the skill directory — not the repo's `README`, `LICENSE`, or CI files. The generated data is checked in on purpose: consumers shouldn't need to run Python or hit the network to use the skill.
 
 ## Credits
 
