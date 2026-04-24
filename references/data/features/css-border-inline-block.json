@@ -1,0 +1,185 @@
+{
+  "slug": "css-border-inline-block",
+  "title": "border-inline & border-block",
+  "description": "Support for the `border-inline` and `border-block` shorthand properties.",
+  "url": "https://www.caniemail.com/features/css-border-inline-block/",
+  "category": "css",
+  "tags": [
+    "i18n"
+  ],
+  "keywords": "border-inline, border-block",
+  "last_test_date": "2022-07-13",
+  "test_url": "https://www.caniemail.com/tests/css-border-logical-properties.html",
+  "test_results_url": "https://testi.at/proj/1yxFDAGtwrUmbf4tzMTY",
+  "stats": {
+    "apple-mail": {
+      "macos": {
+        "10.15": "n",
+        "11": "y",
+        "12": "y"
+      },
+      "ios": {
+        "13": "n",
+        "14": "n",
+        "15": "y"
+      }
+    },
+    "gmail": {
+      "desktop-webmail": {
+        "2022-07": "n"
+      },
+      "ios": {
+        "2022-07": "n"
+      },
+      "android": {
+        "2022-07": "n"
+      },
+      "mobile-webmail": {
+        "2022-07": "n"
+      }
+    },
+    "orange": {
+      "desktop-webmail": {
+        "2022-07": "u"
+      },
+      "ios": {
+        "2022-07": "u"
+      },
+      "android": {
+        "2022-07": "u"
+      }
+    },
+    "outlook": {
+      "windows": {
+        "2013": "n",
+        "2016": "n",
+        "2019": "n",
+        "2021": "n"
+      },
+      "windows-mail": {
+        "2022-07": "n"
+      },
+      "macos": {
+        "2011": "n",
+        "2016": "n",
+        "16.80": "n"
+      },
+      "outlook-com": {
+        "2022-07": "n"
+      },
+      "ios": {
+        "2022-07": "n"
+      },
+      "android": {
+        "2022-07": "n"
+      }
+    },
+    "samsung-email": {
+      "android": {
+        "10": "n",
+        "11": "n"
+      }
+    },
+    "sfr": {
+      "desktop-webmail": {
+        "2024-03": "y"
+      },
+      "ios": {
+        "2024-03": "y"
+      },
+      "android": {
+        "2024-03": "y"
+      }
+    },
+    "thunderbird": {
+      "macos": {
+        "60.3": "u"
+      }
+    },
+    "aol": {
+      "desktop-webmail": {
+        "2022-07": "n"
+      },
+      "ios": {
+        "2022-07": "n"
+      },
+      "android": {
+        "2022-07": "n"
+      }
+    },
+    "yahoo": {
+      "desktop-webmail": {
+        "2022-07": "n"
+      },
+      "ios": {
+        "2022-07": "n"
+      },
+      "android": {
+        "2022-07": "n"
+      }
+    },
+    "protonmail": {
+      "desktop-webmail": {
+        "2022-07": "y"
+      },
+      "ios": {
+        "2022-07": "y"
+      },
+      "android": {
+        "2022-07": "y"
+      }
+    },
+    "hey": {
+      "desktop-webmail": {
+        "2022-07": "u"
+      }
+    },
+    "mail-ru": {
+      "desktop-webmail": {
+        "2022-07": "y"
+      }
+    },
+    "fastmail": {
+      "desktop-webmail": {
+        "2022-07": "u"
+      }
+    },
+    "laposte": {
+      "desktop-webmail": {
+        "2022-07": "u"
+      }
+    },
+    "gmx": {
+      "desktop-webmail": {
+        "2022-09": "n"
+      },
+      "ios": {
+        "2022-09": "y"
+      },
+      "android": {
+        "2022-09": "y"
+      }
+    },
+    "web-de": {
+      "desktop-webmail": {
+        "2022-09": "n"
+      },
+      "ios": {
+        "2022-09": "y"
+      },
+      "android": {
+        "2022-09": "y"
+      }
+    },
+    "ionos-1and1": {
+      "desktop-webmail": {
+        "2022-09": "y"
+      },
+      "android": {
+        "2022-09": "y"
+      }
+    }
+  },
+  "notes": null,
+  "notes_by_num": null
+}

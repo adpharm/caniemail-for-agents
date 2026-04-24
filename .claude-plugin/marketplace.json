@@ -1,0 +1,13 @@
+{
+  "name": "caniemail-for-agents",
+  "owner": {
+    "name": "Ben Honda"
+  },
+  "plugins": [
+    {
+      "name": "caniemail-for-agents",
+      "source": "./",
+      "description": "Look up email client compatibility for HTML/CSS features using a bundled snapshot of caniemail.com data. Pairs with any email-authoring workflow."
+    }
+  ]
+}

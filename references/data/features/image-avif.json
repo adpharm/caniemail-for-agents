@@ -1,0 +1,214 @@
+{
+  "slug": "image-avif",
+  "title": "AVIF image format",
+  "description": "A modern image format based on the AV1 video format.",
+  "url": "https://www.caniemail.com/features/image-avif/",
+  "category": "image",
+  "tags": [
+    "performance"
+  ],
+  "keywords": "image,img,AVIF",
+  "last_test_date": "2023-01-14",
+  "test_url": "https://www.caniemail.com/tests/images.html",
+  "test_results_url": "https://app.emailonacid.com/app/acidtest/d69Dg0BGvV5zAiHI1fjKX6BDulsODM8eYdKO9QVxlNuUL/list",
+  "stats": {
+    "apple-mail": {
+      "macos": {
+        "11": "n",
+        "12": "n",
+        "13": "n",
+        "13.1": "a #2",
+        "13.3": "y"
+      },
+      "ios": {
+        "11": "n",
+        "12": "n",
+        "13": "n",
+        "14": "n",
+        "16.2": "a #2",
+        "16.4": "y"
+      }
+    },
+    "gmail": {
+      "desktop-webmail": {
+        "2021-01": "n",
+        "2023-01": "a #3"
+      },
+      "ios": {
+        "2021-01": "n",
+        "2023-01": "a #3"
+      },
+      "android": {
+        "2021-01": "n",
+        "2023-01": "a #3"
+      },
+      "mobile-webmail": {
+        "2021-01": "n",
+        "2023-01": "a #3"
+      }
+    },
+    "orange": {
+      "desktop-webmail": {
+        "2021-01": "y #1"
+      },
+      "ios": {
+        "2021-01": "n"
+      },
+      "android": {
+        "2021-05": "y"
+      }
+    },
+    "outlook": {
+      "windows": {
+        "2007": "n",
+        "2010": "n",
+        "2013": "n",
+        "2016": "n",
+        "2019": "n"
+      },
+      "windows-mail": {
+        "2021-01": "n"
+      },
+      "macos": {
+        "2021-01": "n",
+        "2023-01": "a #2",
+        "2023-04": "y",
+        "16.80": "y"
+      },
+      "outlook-com": {
+        "2021-01": "y #1",
+        "2024-01": "y #1"
+      },
+      "ios": {
+        "2021-01": "n",
+        "2023-01": "a #2",
+        "2023-04": "y"
+      },
+      "android": {
+        "4.2116.0": "y #1"
+      }
+    },
+    "yahoo": {
+      "desktop-webmail": {
+        "2021-01": "y #1"
+      },
+      "ios": {
+        "2021-01": "n",
+        "2023-01": "a #2",
+        "2023-04": "y"
+      },
+      "android": {
+        "6.27": "y #1"
+      }
+    },
+    "aol": {
+      "desktop-webmail": {
+        "2021-01": "y #1"
+      },
+      "ios": {
+        "2021-01": "n",
+        "2023-01": "a #2",
+        "2023-04": "y"
+      },
+      "android": {
+        "2021-05": "y #1"
+      }
+    },
+    "samsung-email": {
+      "android": {
+        "6.1.31.2": "n",
+        "6.1.74.5": "y"
+      }
+    },
+    "sfr": {
+      "desktop-webmail": {
+        "2021-01": "y #1"
+      },
+      "ios": {
+        "2021-01": "n"
+      },
+      "android": {
+        "2021-05": "y #1"
+      }
+    },
+    "thunderbird": {
+      "macos": {
+        "78.10": "n",
+        "102.6": "y #2"
+      }
+    },
+    "protonmail": {
+      "desktop-webmail": {
+        "2021-01": "y #1"
+      },
+      "ios": {
+        "2021-05": "n",
+        "2023-01": "n",
+        "2023-04": "y"
+      },
+      "android": {
+        "2021-01": "y #1"
+      }
+    },
+    "hey": {
+      "desktop-webmail": {
+        "2021-05": "n",
+        "2023-01": "y"
+      }
+    },
+    "mail-ru": {
+      "desktop-webmail": {
+        "2021-01": "n",
+        "2023-01": "n"
+      }
+    },
+    "fastmail": {
+      "desktop-webmail": {
+        "2021-07": "n",
+        "2023-01": "n",
+        "2023-04": "n"
+      }
+    },
+    "laposte": {
+      "desktop-webmail": {
+        "2021-08": "y"
+      }
+    },
+    "gmx": {
+      "desktop-webmail": {
+        "2022-09": "n"
+      },
+      "ios": {
+        "2022-09": "n"
+      },
+      "android": {
+        "2022-09": "n"
+      }
+    },
+    "web-de": {
+      "desktop-webmail": {
+        "2022-09": "n"
+      },
+      "ios": {
+        "2022-09": "n"
+      },
+      "android": {
+        "2022-09": "n"
+      }
+    },
+    "ionos-1and1": {
+      "desktop-webmail": {
+        "2022-09": "n"
+      },
+      "android": {
+        "2022-09": "n"
+      }
+    }
+  },
+  "notes": null,
+  "notes_by_num": {
+    "1": "Support depends on browser and operating system support.",
+    "2": "Does not support animated AVIF.",
+    "3": "Converts still AVIF into a jpg and animated AVIF into a gif."
+  }
+}

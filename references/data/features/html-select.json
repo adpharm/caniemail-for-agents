@@ -1,0 +1,195 @@
+{
+  "slug": "html-select",
+  "title": "<select> element",
+  "description": "HTML select menu",
+  "url": "https://www.caniemail.com/features/html-select/",
+  "category": "html",
+  "tags": [],
+  "keywords": "form, select",
+  "last_test_date": "2019-09-10",
+  "test_url": "https://www.caniemail.com/tests/html-forms.html",
+  "test_results_url": "https://app.emailonacid.com/app/acidtest/MOk8g8TWwCTL4vLGrdMIgu3Vncqdxif6KlK4g8HfUV1mB/list",
+  "stats": {
+    "apple-mail": {
+      "macos": {
+        "10.3": "y",
+        "12.4": "y"
+      },
+      "ios": {
+        "10.3": "a #1",
+        "12.4": "a #1"
+      }
+    },
+    "gmail": {
+      "desktop-webmail": {
+        "2019-09": "y"
+      },
+      "ios": {
+        "2019-09": "a #1"
+      },
+      "android": {
+        "2019-09": "y"
+      },
+      "mobile-webmail": {
+        "2020-02": "y"
+      }
+    },
+    "orange": {
+      "desktop-webmail": {
+        "2020-01": "n #2",
+        "2021-03": "y",
+        "2024-04": "y"
+      },
+      "ios": {
+        "2020-01": "n #2",
+        "2024-04": "y"
+      },
+      "android": {
+        "2020-01": "n #2",
+        "2024-04": "y"
+      }
+    },
+    "outlook": {
+      "windows": {
+        "2003": "n",
+        "2007": "n",
+        "2010": "n",
+        "2013": "n",
+        "2016": "n",
+        "2019": "n"
+      },
+      "windows-mail": {
+        "2020-01": "n"
+      },
+      "macos": {
+        "2011": "y",
+        "2016": "y",
+        "2019": "y",
+        "16.80": "y"
+      },
+      "outlook-com": {
+        "2019-09": "y",
+        "2024-01": "y"
+      },
+      "ios": {
+        "2019-06": "y"
+      },
+      "android": {
+        "2019-06": "y"
+      }
+    },
+    "samsung-email": {
+      "android": {
+        "6.0": "y",
+        "9.0": "y"
+      }
+    },
+    "sfr": {
+      "desktop-webmail": {
+        "2020-01": "n #2"
+      },
+      "ios": {
+        "2020-01": "y",
+        "2021-06": "n #2"
+      },
+      "android": {
+        "2020-01": "y",
+        "2021-06": "n #2"
+      }
+    },
+    "thunderbird": {
+      "macos": {
+        "68.4": "a #3"
+      }
+    },
+    "yahoo": {
+      "desktop-webmail": {
+        "2019-09": "y"
+      },
+      "ios": {
+        "2019-09": "n"
+      },
+      "android": {
+        "2019-09": "y"
+      }
+    },
+    "aol": {
+      "desktop-webmail": {
+        "2019-09": "y"
+      },
+      "ios": {
+        "2019-09": "y"
+      },
+      "android": {
+        "2019-09": "y"
+      }
+    },
+    "protonmail": {
+      "desktop-webmail": {
+        "2020-03": "y"
+      },
+      "ios": {
+        "2020-03": "y"
+      },
+      "android": {
+        "2020-03": "y"
+      }
+    },
+    "hey": {
+      "desktop-webmail": {
+        "2020-06": "n"
+      }
+    },
+    "mail-ru": {
+      "desktop-webmail": {
+        "2020-10": "y"
+      }
+    },
+    "fastmail": {
+      "desktop-webmail": {
+        "2021-07": "y"
+      }
+    },
+    "laposte": {
+      "desktop-webmail": {
+        "2021-08": "n #2"
+      }
+    },
+    "gmx": {
+      "desktop-webmail": {
+        "2022-11": "n"
+      },
+      "ios": {
+        "2022-11": "y"
+      },
+      "android": {
+        "2022-11": "n"
+      }
+    },
+    "web-de": {
+      "desktop-webmail": {
+        "2022-11": "n"
+      },
+      "ios": {
+        "2022-11": "y"
+      },
+      "android": {
+        "2022-11": "n"
+      }
+    },
+    "ionos-1and1": {
+      "desktop-webmail": {
+        "2022-11": "y"
+      },
+      "android": {
+        "2022-11": "n"
+      }
+    }
+  },
+  "notes": "",
+  "notes_by_num": {
+    "1": "Buggy. Works if the email is shorter than the viewport. Otherwise the screen goes blank when the `<select>` is in focus.",
+    "2": "Not supported. `<select>` is transformed into `<noselect>`.",
+    "3": "Buggy. Interacting with the element submits the form it belongs in."
+  }
+}

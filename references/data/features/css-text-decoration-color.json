@@ -1,0 +1,187 @@
+{
+  "slug": "css-text-decoration-color",
+  "title": "text-decoration-color",
+  "description": null,
+  "url": "https://www.caniemail.com/features/css-text-decoration-color/",
+  "category": "css",
+  "tags": [],
+  "keywords": "underline",
+  "last_test_date": "2020-04-30",
+  "test_url": "https://www.caniemail.com/tests/css-text-decoration.html",
+  "test_results_url": "https://app.emailonacid.com/app/acidtest/VYmPi84Nw2pMoQLeljigICaH0QudjS2xc2CgpvPbEW7FZ/list",
+  "stats": {
+    "apple-mail": {
+      "macos": {
+        "12.4": "y"
+      },
+      "ios": {
+        "12": "a #1",
+        "13.4": "y"
+      }
+    },
+    "gmail": {
+      "desktop-webmail": {
+        "2020-04": "y"
+      },
+      "ios": {
+        "2020-04": "a #3"
+      },
+      "android": {
+        "2020-04": "a #3"
+      },
+      "mobile-webmail": {
+        "2020-04": "n"
+      }
+    },
+    "orange": {
+      "desktop-webmail": {
+        "2020-04": "y",
+        "2021-03": "n"
+      },
+      "ios": {
+        "2020-04": "y"
+      },
+      "android": {
+        "2020-04": "y"
+      }
+    },
+    "outlook": {
+      "windows": {
+        "2003": "n",
+        "2007": "n #2",
+        "2010": "n #2",
+        "2013": "n #2",
+        "2016": "n #2",
+        "2019": "n #2"
+      },
+      "windows-mail": {
+        "2020-04": "n #2"
+      },
+      "macos": {
+        "2011": "a #1",
+        "2016": "a #1",
+        "16.80": "y"
+      },
+      "outlook-com": {
+        "2020-04": "y",
+        "2024-01": "y"
+      },
+      "ios": {
+        "2020-04": "y"
+      },
+      "android": {
+        "2020-04": "y"
+      }
+    },
+    "samsung-email": {
+      "android": {
+        "7.0": "y"
+      }
+    },
+    "sfr": {
+      "desktop-webmail": {
+        "2020-04": "y"
+      },
+      "ios": {
+        "2020-04": "y"
+      },
+      "android": {
+        "2020-04": "y"
+      }
+    },
+    "thunderbird": {
+      "macos": {
+        "68.7": "y"
+      }
+    },
+    "aol": {
+      "desktop-webmail": {
+        "2020-04": "y"
+      },
+      "ios": {
+        "2020-04": "y"
+      },
+      "android": {
+        "2020-04": "y"
+      }
+    },
+    "yahoo": {
+      "desktop-webmail": {
+        "2020-04": "y"
+      },
+      "ios": {
+        "2020-04": "y"
+      },
+      "android": {
+        "2020-04": "y"
+      }
+    },
+    "protonmail": {
+      "desktop-webmail": {
+        "2020-04": "y"
+      },
+      "ios": {
+        "2020-04": "y"
+      },
+      "android": {
+        "2020-04": "y"
+      }
+    },
+    "hey": {
+      "desktop-webmail": {
+        "2020-06": "y"
+      }
+    },
+    "mail-ru": {
+      "desktop-webmail": {
+        "2020-10": "y"
+      }
+    },
+    "fastmail": {
+      "desktop-webmail": {
+        "2021-07": "y"
+      }
+    },
+    "laposte": {
+      "desktop-webmail": {
+        "2021-08": "y"
+      }
+    },
+    "gmx": {
+      "desktop-webmail": {
+        "2022-07": "n"
+      },
+      "ios": {
+        "2022-07": "y"
+      },
+      "android": {
+        "2022-07": "y"
+      }
+    },
+    "web-de": {
+      "desktop-webmail": {
+        "2022-07": "n"
+      },
+      "ios": {
+        "2022-07": "y"
+      },
+      "android": {
+        "2022-07": "y"
+      }
+    },
+    "ionos-1and1": {
+      "desktop-webmail": {
+        "2022-07": "y"
+      },
+      "android": {
+        "2022-07": "y"
+      }
+    }
+  },
+  "notes": "`text-decoration-color` is not supported in Internet Explorer.",
+  "notes_by_num": {
+    "1": "Supported with prefix `-webkit-`.",
+    "2": "Not supported, but the proprietary `text-underline-color` property can be used instead.",
+    "3": "Partial. Not supported with non Google accounts."
+  }
+}

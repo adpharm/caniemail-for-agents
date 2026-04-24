@@ -1,0 +1,316 @@
+# caniemail feature index
+
+Snapshot: 2026-04-22 16:27:15 +0000 (api v1.0.4)
+Total features: 307
+Rebuild: `python scripts/build_index.py`
+
+Format: `<slug> — <title> (<category>) — <keywords>`
+Full detail per feature is in `features/<slug>.json`.
+
+- `amp` — AMP for Email (others) — amp4email
+- `bimi` — BIMI (others) — bimi, logo, brand
+- `css-accent-color` — accent-color (css) — accent,color
+- `css-align-items` — align-items (css) — align,items,flexbox,grid
+- `css-animation` — animation (css) — keyframes
+- `css-aspect-ratio` — aspect-ratio (css) — ratio
+- `css-at-font-face` — @font-face (css) — font face, web fonts, google fonts
+- `css-at-import` — @import (css) — css, style
+- `css-at-keyframes` — @keyframes (css) — animation
+- `css-at-media` — @media (css) — media queries, media query, media feature
+- `css-at-media-device-pixel-ratio` — @media (-webkit-device-pixel-ratio) (css) — media queries, media query, media feature
+- `css-at-media-hover` — @media (hover), @media (any-hover) (css) — media, media query, hover, any-hover
+- `css-at-media-orientation` — @media (orientation) (css) — media queries, media query, media feature, portrait, landscape
+- `css-at-media-prefers-color-scheme` — @media (prefers-color-scheme) (css) — media queries, media query, media feature, dark mode, light mode
+- `css-at-media-prefers-reduced-motion` — @media (prefers-reduced-motion) (css) — media queries, media query, media feature, prefers-reduced-motion, animation, accessibility
+- `css-at-supports` — @supports (css) — feature queries
+- `css-backdrop-filter` — backdrop-filter (css) — filter
+- `css-background` — background (css) — 
+- `css-background-blend-mode` — background-blend-mode (css) — 
+- `css-background-clip` — background-clip (css) — 
+- `css-background-color` — background-color (css) — 
+- `css-background-image` — background-image (css) — 
+- `css-background-origin` — background-origin (css) — 
+- `css-background-position` — background-position (css) — 
+- `css-background-repeat` — background-repeat (css) — 
+- `css-background-size` — background-size (css) — 
+- `css-block-inline-size` — block-size & inline-size (css) — block-size, inline-size
+- `css-border` — border (css) — border-width, border-style, border-color, border-top, border-bottom, border-left, border-right, border-top-width, border-top-style, border-top-color, border-bottom-width, border-bottom-style, border-bottom-color, border-left-width, border-left-style, border-left-color, border-right-width, border-right-style, border-right-color
+- `css-border-collapse` — border-collapse (css) — table
+- `css-border-image` — border-image (css) — 
+- `css-border-inline-block` — border-inline & border-block (css) — border-inline, border-block
+- `css-border-inline-block-individual` — border-inline & border-block individual logical properties (css) — border-inline-color, border-block-color, border-inline-style, border-block-style, border-inline-width, border-block-width, border-inline-start, border-inline-end, border-block-start, border-block-end
+- `css-border-inline-block-longhand` — border-inline & border-block longhand properties (css) — border-inline-start-color, border-block-start-color, border-inline-start-style, border-block-start-style, border-inline-start-width, border-block-start-width, border-inline-end-color, border-block-end-color, border-inline-end-style, border-block-end-style, border-inline-end-width, border-block-end-width
+- `css-border-radius` — border-radius (css) — rounded corners
+- `css-border-radius-logical` — border-radius logical properties (css) — border-start-start-radius, border-start-end-radius, border-end-start-radius, border-end-end-radius
+- `css-border-spacing` — border-spacing (css) — table
+- `css-box-shadow` — box-shadow (css) — 
+- `css-box-sizing` — box-sizing (css) — box model
+- `css-caption-side` — caption-side (css) — caption,table
+- `css-clear` — clear (css) — 
+- `css-clip-path` — clip-path (css) — clip,path,svg,mask
+- `css-color-scheme` — color-scheme CSS property (css) — dark mode, light mode
+- `css-column-count` — column-count (css) — columns
+- `css-column-layout-properties` — css column properties (css) — columns, column-count, column-fill, column-gap, column-rule, column-rule-color, column-rule-style, column-rule-width, column-span, column-width
+- `css-comments` — CSS comments (css) — 
+- `css-conic-gradient` — conic-gradient() (css) — gradients
+- `css-cursor` — cursor (css) — pointer, mouse, touch
+- `css-direction` — direction (css) — 
+- `css-display` — display (css) — inline, block, inline-block
+- `css-display-flex` — display:flex (css) — flexbox
+- `css-display-grid` — display:grid (css) — 
+- `css-display-none` — display:none (css) — 
+- `css-empty-cells` — empty-cells (css) — blank
+- `css-filter` — filter (css) — 
+- `css-flex-direction` — flex-direction:column (css) — flexbox
+- `css-flex-wrap` — flex-wrap: wrap (css) — flexbox
+- `css-float` — float (css) — 
+- `css-font` — font shorthand (css) — 
+- `css-font-kerning` — font-kerning (css) — font,kerning
+- `css-font-size` — font-size (css) — font,size
+- `css-font-size-adjust` — font-size-adjust (css) — font, adjust, fallback, font metric
+- `css-font-stretch` — font-stretch (css) — font
+- `css-font-weight` — font-weight (css) — font,weight
+- `css-function-clamp` — clamp() (css) — 
+- `css-function-light-dark` — light-dark() (css) — dark, light
+- `css-function-max` — max() (css) — 
+- `css-function-min` — min() (css) — 
+- `css-gap` — gap, column-gap, row-gap (css) — gap
+- `css-grid-template` — grid-template-* properties (css) — grid-template, grid-template-areas, grid-template-columns, grid-template-rows
+- `css-height` — height property (css) — 
+- `css-hyphenate-character` — hyphenate-character (css) — hyphens, break
+- `css-hyphenate-limit-chars` — hyphenate-limit-chars (css) — 
+- `css-hyphens` — hyphens (css) — hyphens, break
+- `css-important` — !important keyword (css) — 
+- `css-inert-attribute` — inert (css) — focus, inactive
+- `css-inline-size` — inline-size  (css) — 
+- `css-inset` — inset (css) — inset-block, inset-inline, inset-inline-start, inset-inline-end, inset-block-start, inset-block-end
+- `css-intrinsic-size` — fit-content, min-content, max-content (css) — 
+- `css-justify-content` — justify-content (css) — justify,align,flexbox,grid
+- `css-left-right-top-bottom` — left, right, top, bottom (css) — absolute, sticky, fixed, relative, position
+- `css-letter-spacing` — letter-spacing (css) — 
+- `css-line-height` — line-height (css) — 
+- `css-linear-gradient` — linear-gradient() (css) — gradients
+- `css-list-style` — list-style (css) — 
+- `css-list-style-image` — list-style-image (css) — 
+- `css-list-style-position` — list-style-position (css) — 
+- `css-list-style-type` — list-style-type (css) — 
+- `css-margin` — margin (css) — margin-left, margin-right, margin-top, margin-bottom
+- `css-margin-block-start-end` — margin-block-start & margin-block-end (css) — margin-block-start, margin-block-end
+- `css-margin-inline-block` — margin-inline & margin-block (css) — margin-inline, margin-block
+- `css-margin-inline-start-end` — margin-inline-start & margin-inline-end (css) — margin-inline-start, margin-inline-end
+- `css-mask-image` — mask-image (css) — 
+- `css-max-block-size` — max-block-size (css) — max, block, size
+- `css-max-height` — max-height property (css) — 
+- `css-max-inline-size` — max-inline-size (css) — max, inline, size
+- `css-max-width` — max-width (css) — size
+- `css-min-block-size` — min-block-size (css) — min, block, size
+- `css-min-height` — min-height property (css) — 
+- `css-min-inline-size` — min-inline-size (css) — min, inline, size
+- `css-min-width` — min-width property (css) — 
+- `css-mix-blend-mode` — mix-blend-mode (css) — mix-blend-mode,blend,filter
+- `css-modern-color` — lch(), oklch(), lab(), oklab() (css) — color
+- `css-nesting` — CSS Nesting (css) — 
+- `css-object-fit` — object-fit (css) — 
+- `css-object-position` — object-position (css) — 
+- `css-opacity` — opacity (css) — 
+- `css-orphans` — orphans (css) — columns
+- `css-outline` — outline (css) — 
+- `css-outline-offset` — outline-offset (css) — 
+- `css-overflow` — overflow (css) — overflow-block, overflow-inline
+- `css-overflow-wrap` — overflow-wrap (css) — 
+- `css-padding` — padding (css) — 
+- `css-padding-block-start-end` — padding-block-start & padding-block-end (css) — padding-block-start, padding-block-end
+- `css-padding-inline-block` — padding-inline & padding-block (css) — padding-inline, padding-block
+- `css-padding-inline-start-end` — padding-inline-start & padding-inline-end (css) — padding-inline-start, padding-inline-end
+- `css-position` — position (css) — absolute, sticky, fixed, relative, static
+- `css-pseudo-class-active` — :active (css) — pseudo-class
+- `css-pseudo-class-checked` — :checked (css) — check, interactive, pseudo-class
+- `css-pseudo-class-default` — :default (css) — pseudo-class, form
+- `css-pseudo-class-first-child` — :first-child (css) — 
+- `css-pseudo-class-first-of-type` — :first-of-type (css) — 
+- `css-pseudo-class-focus` — :focus (css) — pseudo-class
+- `css-pseudo-class-focus-visible` — :focus-visible (css) — pseudo-class, focus
+- `css-pseudo-class-focus-within` — :focus-within (css) — pseudo-class, focus
+- `css-pseudo-class-has` — :has() (css) — 
+- `css-pseudo-class-hover` — :hover (css) — rollover, pseudo-class
+- `css-pseudo-class-lang` — lang() (css) — 
+- `css-pseudo-class-last-child` — :last-child (css) — 
+- `css-pseudo-class-last-of-type` — :last-of-type (css) — 
+- `css-pseudo-class-link` — :link (css) — pseudo-class
+- `css-pseudo-class-not` — :not (css) — pseudo-class
+- `css-pseudo-class-nth-child` — :nth-child (css) — 
+- `css-pseudo-class-nth-last-child` — :nth-last-child (css) — 
+- `css-pseudo-class-nth-last-of-type` — :nth-last-of-type (css) — 
+- `css-pseudo-class-nth-of-type` — :nth-of-type (css) — 
+- `css-pseudo-class-only-child` — :only-child (css) — 
+- `css-pseudo-class-only-of-type` — :only-of-type (css) — 
+- `css-pseudo-class-target` — :target (css) — pseudo-class
+- `css-pseudo-class-visited` — :visited (css) — pseudo-class
+- `css-pseudo-element-after` — ::after (css) — pseudo-element
+- `css-pseudo-element-before` — ::before (css) — pseudo-element
+- `css-pseudo-element-first-letter` — ::first-letter (css) — pseudo-element
+- `css-pseudo-element-first-line` — ::first-line (css) — pseudo-element
+- `css-pseudo-element-marker` — ::marker (css) — pseudo-element
+- `css-pseudo-element-placeholder` — ::placeholder (css) — pseudo-element
+- `css-radial-gradient` — radial-gradient() (css) — gradients
+- `css-resize` — resize (css) — textarea
+- `css-rgb` — rgb() (css) — rgb,color
+- `css-rgba` — rgba() (css) — rgb,rgba,color,alpha
+- `css-scroll-snap` — scroll-snap (css) — 
+- `css-selector-adjacent-sibling` — Adjacent sibling combinator (css) — 
+- `css-selector-attribute` — Attribute selector (css) — 
+- `css-selector-chaining` — Chaining selectors (css) — 
+- `css-selector-child` — Child combinator (css) — 
+- `css-selector-class` — Class selector (css) — 
+- `css-selector-descendant` — Descendant combinator (css) — 
+- `css-selector-general-sibling` — General sibling combinator (css) — 
+- `css-selector-grouping` — Grouping selectors (css) — 
+- `css-selector-id` — ID selector (css) — 
+- `css-selector-type` — Type selector (css) — element
+- `css-selector-universal` — Universal selector * (css) — 
+- `css-shape-margin` — shape-margin (css) — shape, margin
+- `css-shape-outside` — shape-outside (css) — shape
+- `css-sytem-ui` — system-ui, ui-serif, ui-sans-serif, ui-rounded, ui-monospace (css) — 
+- `css-tab-size` — tab-size (css) — tab,size
+- `css-table-layout` — table-layout (css) — table,layout
+- `css-text-align` — text-align (css) — align
+- `css-text-align-last` — text-align-last (css) — align, align-last
+- `css-text-decoration` — text-decoration (css) — underline
+- `css-text-decoration-color` — text-decoration-color (css) — underline
+- `css-text-decoration-line` — text-decoration-line (css) — underline, overline, line-through
+- `css-text-decoration-skip-ink` — text-decoration-skip-ink (css) — underline
+- `css-text-decoration-style` — text-decoration-style (css) — underline
+- `css-text-decoration-thickness` — text-decoration-thickness (css) — underline
+- `css-text-emphasis` — text-emphasis (css) — 
+- `css-text-emphasis-position` — text-emphasis-position (css) — 
+- `css-text-indent` — text-indent (css) — indent
+- `css-text-justify` — text-justify (css) — 
+- `css-text-orientation` — text-orientation (css) — vertical orientation
+- `css-text-overflow` — text-overflow (css) — 
+- `css-text-shadow` — text-shadow (css) — 
+- `css-text-transform` — text-transform (css) — 
+- `css-text-underline-offset` — text-underline-offset (css) — underline
+- `css-text-underline-position` — text-underline-position (css) — underline
+- `css-text-wrap` — text-wrap (css) — 
+- `css-transform` — transform (css) — 
+- `css-transition` — transition (css) — animation
+- `css-unit-calc` — CSS calc() function (css) — unit, calc
+- `css-unit-ch` — ch unit (css) — unit, ch
+- `css-unit-cm` — cm unit (css) — unit, cm
+- `css-unit-em` — em unit (css) — unit, em
+- `css-unit-ex` — ex unit (css) — unit, ex
+- `css-unit-in` — in unit (css) — unit, in
+- `css-unit-initial` — initial unit (css) — unit, initial
+- `css-unit-mm` — mm unit (css) — unit, mm
+- `css-unit-pc` — pc unit (css) — unit, pc
+- `css-unit-percent` — % unit (css) — unit, %
+- `css-unit-pt` — pt unit (css) — unit, pt
+- `css-unit-px` — px unit (css) — unit, px
+- `css-unit-rem` — rem unit (css) — unit, rem
+- `css-unit-vh` — vh unit (css) — unit, vh
+- `css-unit-vmax` — vmax unit (css) — unit, vmax
+- `css-unit-vmin` — vmin unit (css) — unit, vmin
+- `css-unit-vw` — vw unit (css) — unit, vw
+- `css-user-select` — user-select (css) — select, copy
+- `css-variables` — CSS Variables (Custom Properties) (css) — 
+- `css-vertical-align` — vertical-align (css) — 
+- `css-visibility` — visibility (css) — 
+- `css-white-space` — white-space (css) — 
+- `css-white-space-collapse` — white-space-collapse (css) — break, space, collapse, hide
+- `css-widows` — widows (css) — columns
+- `css-width` — width property (css) — 
+- `css-word-break` — word-break (css) — a, b, c
+- `css-word-spacing` — word-spacing (css) — word
+- `css-word-wrap` — word-wrap (css) — word-wrap, word-break, overflow-wrap
+- `css-writing-mode` — writing-mode (css) — 
+- `css-z-index` — z-index (css) — absolute, sticky, fixed, relative, position
+- `html-abbr` — <abbr> element (html) — 
+- `html-acronym` — <acronym> element (html) — 
+- `html-address` — address (html) — address
+- `html-align` — align attribute (html) — left, center, right
+- `html-anchor-links` — Local anchors (html) — hash, fragment identifiers, URLs, URIs, document fragments, local, named, anchor, anchors, links
+- `html-aria-describedby` — aria-describedby attribute (html) — accessibility, a11y, wai-aria
+- `html-aria-hidden` — aria-hidden attribute (html) — accessibility, a11y, wai-aria
+- `html-aria-label` — aria-label attribute (html) — accessibility, a11y, wai-aria
+- `html-aria-labelledby` — aria-labelledby attribute (html) — accessibility, a11y, wai-aria
+- `html-aria-live` — aria-live attribute (html) — accessibility, a11y, wai-aria
+- `html-audio` — <audio> element (html) — audio
+- `html-background` — background attribute (html) — 
+- `html-base` — <base> (html) — 
+- `html-bdi` — <bdi> element (html) — 
+- `html-blockquote` — <blockquote> element (html) — 
+- `html-body` — <body> element (html) — 
+- `html-button-reset` — <button type="reset"> element (html) — form, reset, button
+- `html-button-submit` — <button type="submit"> element (html) — form, submit, button
+- `html-cellpadding` — cellpadding attribute (html) — 
+- `html-cellspacing` — cellspacing attribute (html) — 
+- `html-code` — <code> element (html) — 
+- `html-comments` — HTML comments (html) — 
+- `html-del` — <del> element (html) — 
+- `html-dfn` — <dfn> element (html) — 
+- `html-dialog` — <dialog> element (html) — 
+- `html-dir` — dir attribute (html) — direction, ltr, rtl
+- `html-div` — <div> element (html) — 
+- `html-doctype` — HTML5 doctype (html) — 
+- `html-form` — <form> element (html) — form
+- `html-h1-h6` — <h1> to <h6> elements (html) — headings, h1, h2, h3, h4, h5, h6
+- `html-height` — height attribute (html) — 
+- `html-hidden` — hidden attribute (html) — 
+- `html-hr` — <hr> element (html) — 
+- `html-image-maps` — Image maps (html) — image maps, map element, area element, usemap attribute
+- `html-img` — <img> element (html) — 
+- `html-input-checkbox` — <input type="checkbox"> element (html) — form, checkbox
+- `html-input-hidden` — <input type="hidden"> element (html) — form, hidden
+- `html-input-radio` — <input type="radio"> element (html) — form, radio
+- `html-input-reset` — <input type="reset"> element (html) — form, reset
+- `html-input-submit` — <input type="submit"> element (html) — form, submit
+- `html-input-text` — <input type="text"> element (html) — form, text
+- `html-lang` — lang attribute (html) — 
+- `html-link` — <link> element (html) — css, style
+- `html-lists` — <ul>, <ol> and <dl> (html) — ul, ol, li, dl, dt, dd
+- `html-loading-attribute` — loading attribute (html) — img,image,loading
+- `html-mailto-links` — mailto: links (html) — 
+- `html-marquee` — <marquee> element (html) — marquee
+- `html-meta-color-scheme` — color-scheme meta tag (html) — dark-mode
+- `html-meter` — <meter> element (html) — 
+- `html-object` — <object> element (html) — object,embed,video,image,pdf
+- `html-p` — <p> element (html) — paragraph
+- `html-picture` — <picture> element (html) — picture, responsive image
+- `html-popover` — popover attribute (html) — 
+- `html-pre` — <pre> element (html) — 
+- `html-progress` — <progress> element (html) — 
+- `html-required` — required attribute (html) — form, required
+- `html-role` — role attribute (html) — accessibility, a11y, wai-aria
+- `html-rp` — <rp> element (html) — 
+- `html-rt` — <rt> element (html) — 
+- `html-ruby` — <ruby> element (html) — 
+- `html-select` — <select> element (html) — form, select
+- `html-semantics` — HTML5 semantics (html) — article, aside, details, figcaption, figure, footer, header, main, mark, nav, section, summary, time
+- `html-small` — <small> element (html) — 
+- `html-span` — <span> element (html) — 
+- `html-srcset` — srcset and sizes attributes (html) — 
+- `html-strike` — <strike> element (html) — 
+- `html-strong` — <strong> element (html) — 
+- `html-style` — <style> element (html) — 
+- `html-svg` — Embedded <svg> image (html) — image, SVG
+- `html-table` — <table> element (html) — 
+- `html-target` — target attribute (html) — 
+- `html-textarea` — <textarea> element (html) — form, text
+- `html-valign` — valign attribute (html) — 
+- `html-video` — <video> element (html) — mp4
+- `html-wbr` — <wbr> element (html) — 
+- `html-width` — width attribute (html) — 
+- `image-apng` — Animated PNG image format (image) — image, apng, png, animation
+- `image-avif` — AVIF image format (image) — image,img,AVIF
+- `image-base64` — Base 64 image format (image) — image, Base 64
+- `image-bmp` — BMP image format (image) — image, BMP
+- `image-gif` — GIF image format (image) — image, GIF
+- `image-hdr` — HDR image format (image) — image, HDR
+- `image-heif` — HEIF image format (image) — image, HEIF
+- `image-ico` — ICO image format (image) — image, ICO
+- `image-jpg` — JPG image format (image) — image, JPG, jpeg
+- `image-mp4` — Video as Image Assets (image) — mp4
+- `image-png` — PNG image format (image) — image, PNG
+- `image-svg` — SVG image format (image) — image, SVG
+- `image-tiff` — TIFF image format (image) — image, TIFF
+- `image-webp` — webP image format (image) — image, webP

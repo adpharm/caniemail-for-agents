@@ -1,0 +1,37 @@
+name: Refresh caniemail data
+
+on:
+  schedule:
+    # Mondays at 06:00 UTC. caniemail.com updates irregularly; weekly
+    # catches new tests without being noisy.
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Rebuild bundled data
+        run: python scripts/build_index.py
+
+      - name: Open PR if data changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: refresh caniemail data snapshot"
+          title: "Refresh caniemail data snapshot"
+          body: |
+            Automated weekly refresh of `references/data/` from https://www.caniemail.com/api/data.json.
+
+            Rebuilt with `python scripts/build_index.py`. Merge if the diff looks like normal caniemail churn (new client versions, test dates updated).
+          branch: automated/refresh-caniemail-data
+          delete-branch: true
+          labels: automated, data-refresh

@@ -1,0 +1,193 @@
+{
+  "slug": "css-clip-path",
+  "title": "clip-path",
+  "description": "",
+  "url": "https://www.caniemail.com/features/css-clip-path/",
+  "category": "css",
+  "tags": [],
+  "keywords": "clip,path,svg,mask",
+  "last_test_date": "2021-03-09",
+  "test_url": "https://www.caniemail.com/tests/css-clip-path.html",
+  "test_results_url": "https://app.emailonacid.com/app/acidtest/wp9G5kZZ8sY3lne7CeGvMmPIlyBT2Wy0nBMBBAevQNgQO/list",
+  "stats": {
+    "apple-mail": {
+      "macos": {
+        "11": "n",
+        "12": "n",
+        "13": "y"
+      },
+      "ios": {
+        "11": "n",
+        "12": "n",
+        "13": "n",
+        "14": "y"
+      }
+    },
+    "gmail": {
+      "desktop-webmail": {
+        "2021-02": "n"
+      },
+      "ios": {
+        "2021-02": "n"
+      },
+      "android": {
+        "2021-02": "n"
+      },
+      "mobile-webmail": {
+        "2021-02": "n"
+      }
+    },
+    "orange": {
+      "desktop-webmail": {
+        "2021-02": "y",
+        "2021-03": "n",
+        "2024-04": "n"
+      },
+      "ios": {
+        "2021-03": "y",
+        "2024-04": "n"
+      },
+      "android": {
+        "2021-03": "y",
+        "2024-04": "n"
+      }
+    },
+    "outlook": {
+      "windows": {
+        "2007": "n",
+        "2010": "n",
+        "2013": "n",
+        "2016": "n",
+        "2019": "n"
+      },
+      "windows-mail": {
+        "2021-02": "n"
+      },
+      "macos": {
+        "2011": "n",
+        "2016": "n",
+        "2021-02": "y",
+        "16.80": "n"
+      },
+      "outlook-com": {
+        "2021-02": "n"
+      },
+      "ios": {
+        "2021-02": "n"
+      },
+      "android": {
+        "4.2101.1": "n"
+      }
+    },
+    "yahoo": {
+      "desktop-webmail": {
+        "2021-02": "n"
+      },
+      "ios": {
+        "2021-03": "n"
+      },
+      "android": {
+        "6.16.2.1525679": "n"
+      }
+    },
+    "aol": {
+      "desktop-webmail": {
+        "2021-02": "n"
+      },
+      "ios": {
+        "2021-03": "n"
+      },
+      "android": {
+        "2021-03": "n"
+      }
+    },
+    "samsung-email": {
+      "android": {
+        "6.1.31.2": "y"
+      }
+    },
+    "sfr": {
+      "desktop-webmail": {
+        "2021-03": "y"
+      },
+      "ios": {
+        "2021-03": "y"
+      },
+      "android": {
+        "2021-03": "y"
+      }
+    },
+    "thunderbird": {
+      "macos": {
+        "2021-02": "y"
+      }
+    },
+    "protonmail": {
+      "desktop-webmail": {
+        "2021-03": "y"
+      },
+      "ios": {
+        "2021-03": "y"
+      },
+      "android": {
+        "2021-03": "y"
+      }
+    },
+    "hey": {
+      "desktop-webmail": {
+        "2021-03": "y"
+      }
+    },
+    "mail-ru": {
+      "desktop-webmail": {
+        "2021-02": "a #1 #2"
+      }
+    },
+    "fastmail": {
+      "desktop-webmail": {
+        "2021-07": "y"
+      }
+    },
+    "laposte": {
+      "desktop-webmail": {
+        "2021-08": "y"
+      }
+    },
+    "gmx": {
+      "desktop-webmail": {
+        "2021-12": "n"
+      },
+      "ios": {
+        "2021-12": "y"
+      },
+      "android": {
+        "2021-12": "y"
+      }
+    },
+    "web-de": {
+      "desktop-webmail": {
+        "2021-12": "n"
+      },
+      "ios": {
+        "2021-12": "y"
+      },
+      "android": {
+        "2021-12": "y"
+      }
+    },
+    "ionos-1and1": {
+      "desktop-webmail": {
+        "2021-12": "y"
+      },
+      "android": {
+        "2021-12": "y"
+      }
+    }
+  },
+  "notes": null,
+  "notes_by_num": {
+    "1": "Partial. `path()` is not supported.",
+    "2": "Partial. [Embedded SVG](/features/html-svg/) is not supported. Referencing an embedded SVG's `<clipPath>` with `url()` does not work.",
+    "3": "Partial. Referencing an external SVG's `<clipPath>` with `url()` does not work."
+  }
+}

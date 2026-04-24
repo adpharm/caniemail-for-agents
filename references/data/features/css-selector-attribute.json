@@ -1,0 +1,191 @@
+{
+  "slug": "css-selector-attribute",
+  "title": "Attribute selector",
+  "description": "The attribute selector (`[attr]`) targets elements with this specific attribute.",
+  "url": "https://www.caniemail.com/features/css-selector-attribute/",
+  "category": "css",
+  "tags": [],
+  "keywords": null,
+  "last_test_date": "2020-12-15",
+  "test_url": "https://www.caniemail.com/tests/css-selectors-attribute.html",
+  "test_results_url": "https://app.emailonacid.com/app/acidtest/xHppIhPmgvxZQPvA3geS9WGCicLxVuR87NTZu70eWaAF8/list",
+  "stats": {
+    "apple-mail": {
+      "macos": {
+        "14.0": "y"
+      },
+      "ios": {
+        "14.3": "y"
+      }
+    },
+    "gmail": {
+      "desktop-webmail": {
+        "2020-12": "a #5",
+        "2023-02": "a #5"
+      },
+      "ios": {
+        "2020-12": "a #5 #6",
+        "2023-02": "a #5 #6"
+      },
+      "android": {
+        "2020-12": "a #5 #6",
+        "2023-02": "a #5 #6"
+      },
+      "mobile-webmail": {
+        "2020-02": "n"
+      }
+    },
+    "orange": {
+      "desktop-webmail": {
+        "2020-12": "y",
+        "2021-03": "y"
+      },
+      "ios": {
+        "2020-12": "y"
+      },
+      "android": {
+        "2020-12": "y"
+      }
+    },
+    "outlook": {
+      "windows": {
+        "2007": "n",
+        "2010": "n",
+        "2013": "n",
+        "2016": "n",
+        "2019": "n"
+      },
+      "windows-mail": {
+        "2020-12": "n"
+      },
+      "macos": {
+        "2011": "y",
+        "2016": "y",
+        "16.80": "a #1 #2 #3"
+      },
+      "outlook-com": {
+        "2020-12": "a #1 #2 #3",
+        "2024-01": "a #1 #2 #3"
+      },
+      "ios": {
+        "2020-12": "a #1 #2"
+      },
+      "android": {
+        "2020-12": "a #1 #2"
+      }
+    },
+    "samsung-email": {
+      "android": {
+        "6.0": "y"
+      }
+    },
+    "sfr": {
+      "desktop-webmail": {
+        "2020-12": "y"
+      },
+      "ios": {
+        "2020-12": "n"
+      },
+      "android": {
+        "2020-12": "n"
+      }
+    },
+    "thunderbird": {
+      "macos": {
+        "78.5": "y"
+      }
+    },
+    "aol": {
+      "desktop-webmail": {
+        "2020-12": "a #4"
+      },
+      "ios": {
+        "2020-12": "a #4"
+      },
+      "android": {
+        "2020-12": "a #4"
+      }
+    },
+    "yahoo": {
+      "desktop-webmail": {
+        "2020-12": "a #4"
+      },
+      "ios": {
+        "2020-12": "a #4"
+      },
+      "android": {
+        "2020-12": "a #4"
+      }
+    },
+    "protonmail": {
+      "desktop-webmail": {
+        "2020-03": "n"
+      },
+      "ios": {
+        "2020-03": "n"
+      },
+      "android": {
+        "2020-03": "n"
+      }
+    },
+    "hey": {
+      "desktop-webmail": {
+        "2020-06": "y"
+      }
+    },
+    "mail-ru": {
+      "desktop-webmail": {
+        "2020-10": "a #4"
+      }
+    },
+    "fastmail": {
+      "desktop-webmail": {
+        "2021-07": "y"
+      }
+    },
+    "laposte": {
+      "desktop-webmail": {
+        "2021-08": "y"
+      }
+    },
+    "gmx": {
+      "desktop-webmail": {
+        "2022-06": "n"
+      },
+      "ios": {
+        "2022-06": "y"
+      },
+      "android": {
+        "2022-06": "y"
+      }
+    },
+    "web-de": {
+      "desktop-webmail": {
+        "2022-06": "n"
+      },
+      "ios": {
+        "2022-06": "y"
+      },
+      "android": {
+        "2022-06": "y"
+      }
+    },
+    "ionos-1and1": {
+      "desktop-webmail": {
+        "2022-06": "n"
+      },
+      "android": {
+        "2022-06": "y"
+      }
+    }
+  },
+  "notes": "This page reflects support for different syntaxes: `[attr]`, `[attr=\"value\"]`, `[attr~=\"value\"]`, `[attr|=\"value\"]`, `[attr^=\"value\"]`, `[attr$=\"value\"]`, `[attr*=\"value\"]`.",
+  "notes_by_num": {
+    "1": "Partial. Can not be used with a class selector (`.test[class]`). Must be used solo (`[class]`) or with an element selector (`td[class]`).",
+    "2": "Partial. Only supports `[attr]`, `[attr=value]`, `[attr~=value]`, `[attr|=value]` syntaxes.",
+    "3": "Buggy. A `class=\"test\"` in the HTML is prefixed `class=\"x_test\"`, but an attribute selector stays unprefixed `[class=\"test\"]`.",
+    "4": "Partial. Only supports `[attr=value]` syntax.",
+    "5": "Partial. Only supports `[attr~=value]` syntax. Only `class` as an attribute name is known to be supported.",
+    "6": "Partial. Doesn't work with non Google accounts."
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "css-text-align",
+  "title": "text-align",
+  "description": "Sets the horizontal alignment of the content.",
+  "url": "https://www.caniemail.com/features/css-text-align/",
+  "category": "css",
+  "tags": [
+    "i18n"
+  ],
+  "keywords": "align",
+  "last_test_date": "2021-09-24",
+  "test_url": "https://www.caniemail.com/tests/css-text-align.html",
+  "test_results_url": "https://testi.at/proj/G4YtBn8fBxEsLx6uybqcxD",
+  "stats": {
+    "apple-mail": {
+      "macos": {
+        "2021-09": "y"
+      },
+      "ios": {
+        "11": "y",
+        "12": "y",
+        "13": "y",
+        "14": "y"
+      }
+    },
+    "gmail": {
+      "desktop-webmail": {
+        "2021-09": "y"
+      },
+      "ios": {
+        "2021-09": "a #2"
+      },
+      "android": {
+        "2021-09": "a #2"
+      },
+      "mobile-webmail": {
+        "2021-09": "y"
+      }
+    },
+    "orange": {
+      "desktop-webmail": {
+        "2021-09": "a #1"
+      },
+      "ios": {
+        "2021-09": "a #1"
+      },
+      "android": {
+        "2021-09": "a #1"
+      }
+    },
+    "outlook": {
+      "windows": {
+        "2007": "a #1",
+        "2010": "a #1",
+        "2013": "a #1",
+        "2016": "a #1",
+        "2019": "a #1"
+      },
+      "windows-mail": {
+        "2021-09": "a #1"
+      },
+      "macos": {
+        "2021-09": "y",
+        "16.80": "y"
+      },
+      "outlook-com": {
+        "2021-09": "y",
+        "2024-01": "y"
+      },
+      "ios": {
+        "2021-09": "y"
+      },
+      "android": {
+        "2021-09": "y"
+      }
+    },
+    "yahoo": {
+      "desktop-webmail": {
+        "2021-09": "a #1"
+      },
+      "ios": {
+        "2021-09": "a #1"
+      },
+      "android": {
+        "6.37": "a #1"
+      }
+    },
+    "aol": {
+      "desktop-webmail": {
+        "2021-09": "a #1"
+      },
+      "ios": {
+        "2021-09": "a #1"
+      },
+      "android": {
+        "2021-09": "a #1"
+      }
+    },
+    "samsung-email": {
+      "android": {
+        "6.1.51.1": "y"
+      }
+    },
+    "sfr": {
+      "desktop-webmail": {
+        "2021-09": "y"
+      },
+      "ios": {
+        "2021-09": "y"
+      },
+      "android": {
+        "2021-09": "y"
+      }
+    },
+    "thunderbird": {
+      "macos": {
+        "2021-09": "y"
+      }
+    },
+    "protonmail": {
+      "desktop-webmail": {
+        "2021-09": "y"
+      },
+      "ios": {
+        "2021-09": "y"
+      },
+      "android": {
+        "2021-09": "y"
+      }
+    },
+    "hey": {
+      "desktop-webmail": {
+        "2021-09": "y"
+      }
+    },
+    "mail-ru": {
+      "desktop-webmail": {
+        "2021-09": "y"
+      }
+    },
+    "fastmail": {
+      "desktop-webmail": {
+        "2021-07": "y"
+      }
+    },
+    "laposte": {
+      "desktop-webmail": {
+        "2021-09": "y"
+      }
+    },
+    "gmx": {
+      "desktop-webmail": {
+        "2022-07": "y #1"
+      },
+      "ios": {
+        "2022-07": "y"
+      },
+      "android": {
+        "2022-07": "y"
+      }
+    },
+    "web-de": {
+      "desktop-webmail": {
+        "2022-07": "y #1"
+      },
+      "ios": {
+        "2022-07": "y"
+      },
+      "android": {
+        "2022-07": "y"
+      }
+    },
+    "ionos-1and1": {
+      "desktop-webmail": {
+        "2022-07": "y"
+      },
+      "android": {
+        "2022-07": "y"
+      }
+    }
+  },
+  "notes": null,
+  "notes_by_num": {
+    "1": "Partial. Flow-relative values `start` and `end` are not supported.",
+    "2": "Partial. Flow-relative values `start` and `end` are not supported with non Gmail account."
+  }
+}
