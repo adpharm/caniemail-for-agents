@@ -62,3 +62,6 @@ tmp/
 
 __pycache__/
 *.pyc
+
+# Local Taskfile
+Taskfile.yml
