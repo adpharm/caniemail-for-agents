@@ -2489,8 +2489,10 @@ css-display-flex	apple-mail	ios	12.1	y
 css-display-flex	gmail	desktop-webmail	2019-02	y	
 css-display-flex	gmail	ios	2019-02	y	
 css-display-flex	gmail	ios	2020-11	a	1
+css-display-flex	gmail	ios	2026-03	a	1
 css-display-flex	gmail	android	2019-02	y	
 css-display-flex	gmail	android	2020-11	a	1
+css-display-flex	gmail	android	2026-03	a	1
 css-display-flex	gmail	mobile-webmail	2020-02	y	
 css-display-flex	orange	desktop-webmail	2019-08	y	
 css-display-flex	orange	desktop-webmail	2021-03	n	
@@ -2549,8 +2551,11 @@ css-display-flex	ionos-1and1	android	2022-06	y
 css-display-grid	apple-mail	macos	12.4	y	
 css-display-grid	apple-mail	ios	12.1	y	
 css-display-grid	gmail	desktop-webmail	2019-02	n	
+css-display-grid	gmail	desktop-webmail	2026-03	y	
 css-display-grid	gmail	ios	2019-02	n	
+css-display-grid	gmail	ios	2026-03	a	1
 css-display-grid	gmail	android	2019-02	n	
+css-display-grid	gmail	android	2026-03	a	1
 css-display-grid	gmail	mobile-webmail	2020-02	y	
 css-display-grid	orange	desktop-webmail	2019-08	y	
 css-display-grid	orange	desktop-webmail	2021-03	n	
@@ -2570,13 +2575,21 @@ css-display-grid	outlook	macos	16.80	y
 css-display-grid	outlook	outlook-com	2019-02	n	
 css-display-grid	outlook	outlook-com	2024-01	y	
 css-display-grid	outlook	ios	2019-02	n	
+css-display-grid	outlook	ios	2026-03	y	
 css-display-grid	outlook	android	2019-02	n	
+css-display-grid	outlook	android	2026-03	y	
 css-display-grid	yahoo	desktop-webmail	2019-02	n	
+css-display-grid	yahoo	desktop-webmail	2026-03	y	
 css-display-grid	yahoo	ios	2019-02	n	
+css-display-grid	yahoo	ios	2026-03	y	
 css-display-grid	yahoo	android	2019-02	n	
+css-display-grid	yahoo	android	2026-03	y	
 css-display-grid	aol	desktop-webmail	2019-02	n	
+css-display-grid	aol	desktop-webmail	2026-03	y	
 css-display-grid	aol	ios	2019-02	n	
+css-display-grid	aol	ios	2026-03	y	
 css-display-grid	aol	android	2019-02	n	
+css-display-grid	aol	android	2026-03	y	
 css-display-grid	samsung-email	android	5.0.10.2	y	
 css-display-grid	sfr	desktop-webmail	2019-08	y	
 css-display-grid	sfr	ios	2019-08	y	
@@ -8440,51 +8453,73 @@ css-text-align-last	free-fr	desktop-webmail	2022-08	y
 css-text-align-last	t-online-de	desktop-webmail	2022-08	y	
 css-text-align-last	mail-ru	desktop-webmail	2022-08	y	
 css-text-align	apple-mail	macos	2021-09	y	
-css-text-align	apple-mail	ios	11	y	
-css-text-align	apple-mail	ios	12	y	
-css-text-align	apple-mail	ios	13	y	
-css-text-align	apple-mail	ios	14	y	
+css-text-align	apple-mail	macos	2025-11	y	
+css-text-align	apple-mail	ios	11	a	3 5
+css-text-align	apple-mail	ios	12	a	3 5
+css-text-align	apple-mail	ios	13	a	3 5
+css-text-align	apple-mail	ios	14	a	3 5
+css-text-align	apple-mail	ios	15	y	
+css-text-align	apple-mail	ios	16	y	
+css-text-align	apple-mail	ios	17	y	
 css-text-align	gmail	desktop-webmail	2021-09	y	
+css-text-align	gmail	desktop-webmail	2025-11	y	4
 css-text-align	gmail	ios	2021-09	a	2
+css-text-align	gmail	ios	2025-11	y	
 css-text-align	gmail	android	2021-09	a	2
+css-text-align	gmail	android	2025-11	a	3 5
 css-text-align	gmail	mobile-webmail	2021-09	y	
+css-text-align	gmail	mobile-webmail	2025-11	a	3 5
 css-text-align	orange	desktop-webmail	2021-09	a	1
 css-text-align	orange	ios	2021-09	a	1
 css-text-align	orange	android	2021-09	a	1
-css-text-align	outlook	windows	2007	a	1
-css-text-align	outlook	windows	2010	a	1
-css-text-align	outlook	windows	2013	a	1
-css-text-align	outlook	windows	2016	a	1
-css-text-align	outlook	windows	2019	a	1
-css-text-align	outlook	windows-mail	2021-09	a	1
+css-text-align	outlook	windows	2007	a	1 3
+css-text-align	outlook	windows	2010	a	1 3
+css-text-align	outlook	windows	2013	a	1 3
+css-text-align	outlook	windows	2016	a	1 3
+css-text-align	outlook	windows	2019	a	1 3
+css-text-align	outlook	windows-mail	2021-09	a	1 3
 css-text-align	outlook	macos	2021-09	y	
 css-text-align	outlook	macos	16.80	y	
+css-text-align	outlook	macos	16.103	y	
 css-text-align	outlook	outlook-com	2021-09	y	
 css-text-align	outlook	outlook-com	2024-01	y	
+css-text-align	outlook	outlook-com	2025-11	y	4
 css-text-align	outlook	ios	2021-09	y	
 css-text-align	outlook	android	2021-09	y	
+css-text-align	outlook	android	5.2543.1	a	3
 css-text-align	yahoo	desktop-webmail	2021-09	a	1
+css-text-align	yahoo	desktop-webmail	2025-11	a	1 3
 css-text-align	yahoo	ios	2021-09	a	1
+css-text-align	yahoo	ios	2025-11	a	1 3
 css-text-align	yahoo	android	6.37	a	1
+css-text-align	yahoo	android	7.74	a	1 3
 css-text-align	aol	desktop-webmail	2021-09	a	1
+css-text-align	aol	desktop-webmail	2025-11	a	1 3
 css-text-align	aol	ios	2021-09	a	1
+css-text-align	aol	ios	2025-11	a	1 3
 css-text-align	aol	android	2021-09	a	1
-css-text-align	samsung-email	android	6.1.51.1	y	
+css-text-align	aol	android	2025-11	a	1 3
+css-text-align	samsung-email	android	6.1.51.1	a	3 5
+css-text-align	samsung-email	android	6.2.06.0	a	3 5
 css-text-align	sfr	desktop-webmail	2021-09	y	
 css-text-align	sfr	ios	2021-09	y	
 css-text-align	sfr	android	2021-09	y	
 css-text-align	thunderbird	macos	2021-09	y	
+css-text-align	thunderbird	macos	2025-11	y	
 css-text-align	protonmail	desktop-webmail	2021-09	y	
 css-text-align	protonmail	ios	2021-09	y	
 css-text-align	protonmail	android	2021-09	y	
 css-text-align	hey	desktop-webmail	2021-09	y	
 css-text-align	mail-ru	desktop-webmail	2021-09	y	
+css-text-align	mail-ru	desktop-webmail	2025-11	y	4
 css-text-align	fastmail	desktop-webmail	2021-07	y	
 css-text-align	laposte	desktop-webmail	2021-09	y	
 css-text-align	gmx	desktop-webmail	2022-07	y	1
+css-text-align	gmx	desktop-webmail	2025-11	a	1 3
 css-text-align	gmx	ios	2022-07	y	
 css-text-align	gmx	android	2022-07	y	
 css-text-align	web-de	desktop-webmail	2022-07	y	1
+css-text-align	web-de	desktop-webmail	2025-11	a	1 3
 css-text-align	web-de	ios	2022-07	y	
 css-text-align	web-de	android	2022-07	y	
 css-text-align	ionos-1and1	desktop-webmail	2022-07	y	
