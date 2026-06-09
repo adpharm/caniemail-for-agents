@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-06-09
+
+- refactor!: Consolidated the 307 per-feature `features/<slug>.json` files into a single `features.jsonl` (one compact JSON object per line, `slug` forced to be the first key so an anchored grep returns exactly one record). Claude.ai caps skill uploads at 200 files; the per-feature layout was ~310. The skill now ships 5 files total. `scripts/build_index.py` emits the new layout (and removes a legacy `features/` dir if present), and `SKILL.md`'s detail-lookup query pattern is now `grep '^{"slug":"<slug>"' references/data/features.jsonl` instead of `cat`-ing a per-feature file.
+
 ## 2026-04-24
 
 - feat: Added support for the `npx skills add adpharm/caniemail-for-agents` install path, letting users install the skill from any Agent-Skills-compatible client (Cursor, VS Code/Copilot, Codex, Gemini CLI, Amp, Goose, Claude Code) — previously the only install surface was the Claude Code plugin marketplace.

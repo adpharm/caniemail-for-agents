@@ -3,7 +3,7 @@
 
 Outputs (under references/data/):
     index.md            one line per feature for discovery
-    features/<slug>.json    one small file per feature for detail lookups
+    features.jsonl      one compact JSON object per line for detail lookups
     support.tsv         flat compat table for cross-cutting greps
     nicenames.json      canonical key -> display-name map
 
@@ -11,6 +11,7 @@ Python 3.9+, stdlib only.
 """
 
 import json
+import shutil
 import sys
 import urllib.request
 from pathlib import Path
@@ -26,12 +27,12 @@ def main() -> None:
         / "references"
         / "data"
     )
-    features_dir = out_dir / "features"
-    features_dir.mkdir(parents=True, exist_ok=True)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Wipe previous feature files so deleted slugs don't linger.
-    for p in features_dir.glob("*.json"):
-        p.unlink()
+    # Remove the legacy per-feature dir if present (pre-JSONL layout).
+    legacy_features_dir = out_dir / "features"
+    if legacy_features_dir.is_dir():
+        shutil.rmtree(legacy_features_dir)
 
     print(f"Fetching {DATA_URL}...", file=sys.stderr)
     with urllib.request.urlopen(DATA_URL) as resp:
@@ -47,10 +48,15 @@ def main() -> None:
         file=sys.stderr,
     )
 
-    for feature in features:
-        slug = feature["slug"]
-        with (features_dir / f"{slug}.json").open("w", encoding="utf-8") as f:
-            json.dump(feature, f, indent=2, ensure_ascii=False)
+    # One compact JSON object per line, slug forced to be the first key so an
+    # anchored grep ('^{"slug":"..."') pulls back exactly one feature's record.
+    jsonl_path = out_dir / "features.jsonl"
+    with jsonl_path.open("w", encoding="utf-8") as f:
+        for feature in sorted(features, key=lambda f: f["slug"]):
+            record = {"slug": feature["slug"], **feature}
+            f.write(
+                json.dumps(record, ensure_ascii=False, separators=(",", ":")) + "\n"
+            )
 
     index_lines = [
         "# caniemail feature index",
@@ -60,7 +66,8 @@ def main() -> None:
         "Rebuild: `python scripts/build_index.py`",
         "",
         "Format: `<slug> — <title> (<category>) — <keywords>`",
-        "Full detail per feature is in `features/<slug>.json`.",
+        "Full detail per feature is one line in `features.jsonl` "
+        '(grep `\'^{"slug":"<slug>"\'`).',
         "",
     ]
     for feature in sorted(features, key=lambda f: f["slug"]):
@@ -94,7 +101,7 @@ def main() -> None:
     with (out_dir / "nicenames.json").open("w", encoding="utf-8") as f:
         json.dump(nicenames, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote {len(features)} features to {features_dir}", file=sys.stderr)
+    print(f"Wrote {len(features)} features to {jsonl_path}", file=sys.stderr)
     print(f"Index:   {out_dir / 'index.md'}", file=sys.stderr)
     print(f"TSV:     {out_dir / 'support.tsv'} ({len(tsv_lines) - 1} rows)", file=sys.stderr)
     print(f"Nicenames: {out_dir / 'nicenames.json'}", file=sys.stderr)

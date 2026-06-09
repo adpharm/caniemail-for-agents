@@ -12,7 +12,7 @@ A pre-split, grep-friendly mirror of [caniemail.com](https://www.caniemail.com) 
 All paths are relative to this skill's directory.
 
 - `references/data/index.md` — one line per feature (`slug — title — category — keywords`). Start here when the user names a feature but you don't know its slug.
-- `references/data/features/<slug>.json` — full compatibility matrix for one feature, plus description, test URL, last-tested date, and footnotes. Small files, safe to read whole.
+- `references/data/features.jsonl` — one compact JSON object per line (one feature per line), each holding that feature's full compatibility matrix, description, test URL, last-tested date, and footnotes. The `slug` is the first key on every line, so a single `grep` anchored on the slug pulls back exactly one feature's record.
 - `references/data/support.tsv` — flat table with columns `slug`, `client`, `platform`, `version`, `support`, `notes`. Use for cross-cutting queries ("everything unsupported in Outlook 2019").
 - `references/data/nicenames.json` — canonical keys → display names. The user will say "Outlook"; the data keys it as `outlook`. Check here if a client or platform key doesn't match what you expect.
 
@@ -26,15 +26,15 @@ grep -i flex references/data/index.md
 
 The keywords column covers aliases (e.g. `flexbox` is in the keywords for several `css-*` slugs), so grep on the human word, not the slug.
 
-### 2. User asks "does X support Y?" — read the feature file
+### 2. User asks "does X support Y?" — pull the feature's line
 
-Once you have the slug:
+Once you have the slug, grep its line out of the JSONL (slug is the first key, so anchor on it to avoid matching a slug that appears as a substring inside another record):
 
 ```
-cat references/data/features/css-accent-color.json
+grep '^{"slug":"css-accent-color"' references/data/features.jsonl
 ```
 
-Each file is small (one feature's matrix). The `notes_by_num` field explains footnotes referenced by `#1`, `#2`, etc. in the support codes — read them when a support value has a footnote.
+That returns one compact line — a single feature's matrix — which you can read inline or pretty-print with `python3 -m json.tool`. The `notes_by_num` field explains footnotes referenced by `#1`, `#2`, etc. in the support codes — read them when a support value has a footnote.
 
 ### 3. Cross-cutting question — grep the TSV
 
@@ -59,7 +59,7 @@ Prefer `awk -F'\t'` over `grep` when matching column values — grep can false-m
 - `a` = partially supported (mitigated)
 - `u` = support unknown
 
-If the TSV `notes` column has a number (e.g. `1`), look it up in the feature file's `notes_by_num`. Footnotes commonly flag things like "supported but only in certain browsers" or "renders but with visual bugs" — don't ignore them.
+If the TSV `notes` column has a number (e.g. `1`), look it up in the `notes_by_num` field on that feature's `features.jsonl` line. Footnotes commonly flag things like "supported but only in certain browsers" or "renders but with visual bugs" — don't ignore them.
 
 ## Freshness
 

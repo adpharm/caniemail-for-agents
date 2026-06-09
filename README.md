@@ -15,7 +15,7 @@ caniemail.com publishes its data as a single JSON file — ~10,000 lines, deeply
 This repo ships a tiny Python script that downloads the JSON and splits it into three agent-friendly artifacts:
 
 - **`index.md`** — one line per feature (`slug — title — category — keywords`), for discovery.
-- **`features/<slug>.json`** — one small file per feature, for detail lookups.
+- **`features.jsonl`** — one compact JSON object per line (one feature per line, `slug` first key), for detail lookups via a single anchored grep.
 - **`support.tsv`** — a flat `slug | client | platform | version | support | notes` table, for cross-cutting queries ("everything Outlook 2019 breaks").
 
 Plus a `SKILL.md` that teaches the agent the three query patterns.
@@ -48,7 +48,7 @@ Either way, the skill triggers automatically when the agent is working on HTML e
 - "what email clients don't render AMP?"
 - "I'm about to ship this template — anything that won't render in Apple Mail 15?"
 
-The agent greps the bundled index, reads the relevant per-feature file, and answers with a snapshot date attached so you know how fresh the data is.
+The agent greps the bundled index, pulls the relevant feature's line from `features.jsonl`, and answers with a snapshot date attached so you know how fresh the data is.
 
 ## Refreshing the data
 
@@ -81,10 +81,9 @@ caniemail-for-agents/                       # repo root (human-facing)
         └── references/
             └── data/                       # generated output (checked in)
                 ├── index.md
+                ├── features.jsonl          # one feature per line (300+ lines)
                 ├── support.tsv
-                ├── nicenames.json
-                └── features/
-                    └── <slug>.json         # 300+ files
+                └── nicenames.json
 ```
 
 The skill is nested under `skills/caniemail-for-agents/` so that `npx skills add adpharm/caniemail-for-agents` only pulls the skill directory — not the repo's `README`, `LICENSE`, or CI files. The generated data is checked in on purpose: consumers shouldn't need to run Python or hit the network to use the skill.

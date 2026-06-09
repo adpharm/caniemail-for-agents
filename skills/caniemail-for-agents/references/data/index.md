@@ -1,11 +1,11 @@
 # caniemail feature index
 
-Snapshot: 2026-04-22 16:27:15 +0000 (api v1.0.4)
+Snapshot: 2026-05-19 13:46:34 +0000 (api v1.0.4)
 Total features: 307
 Rebuild: `python scripts/build_index.py`
 
 Format: `<slug> — <title> (<category>) — <keywords>`
-Full detail per feature is in `features/<slug>.json`.
+Full detail per feature is one line in `features.jsonl` (grep `'^{"slug":"<slug>"'`).
 
 - `amp` — AMP for Email (others) — amp4email
 - `bimi` — BIMI (others) — bimi, logo, brand
