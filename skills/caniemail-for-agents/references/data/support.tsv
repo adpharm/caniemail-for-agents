@@ -3677,9 +3677,9 @@ css-hyphenate-limit-chars	sfr	desktop-webmail	2024-08	u
 css-hyphenate-limit-chars	sfr	ios	2024-08	u	
 css-hyphenate-limit-chars	sfr	android	2024-08	u	
 css-hyphenate-limit-chars	thunderbird	macos	2024-08	n	
-css-hyphenate-limit-chars	protonmail	desktop-webmail	2024-08	u	
-css-hyphenate-limit-chars	protonmail	ios	2024-08	u	
-css-hyphenate-limit-chars	protonmail	android	2024-08	u	
+css-hyphenate-limit-chars	protonmail	desktop-webmail	2024-08	y	
+css-hyphenate-limit-chars	protonmail	ios	2024-08	y	
+css-hyphenate-limit-chars	protonmail	android	2024-08	y	
 css-hyphenate-limit-chars	hey	desktop-webmail	2024-08	u	
 css-hyphenate-limit-chars	mail-ru	desktop-webmail	2024-08	y	
 css-hyphenate-limit-chars	fastmail	desktop-webmail	2024-08	u	
@@ -3733,9 +3733,9 @@ css-hyphens	samsung-email	android	2022-08	y
 css-hyphens	sfr	desktop-webmail	2024-03	y	
 css-hyphens	sfr	ios	2024-03	y	
 css-hyphens	sfr	android	2024-03	y	
-css-hyphens	protonmail	desktop-webmail	2022-08	u	
-css-hyphens	protonmail	ios	2022-08	u	
-css-hyphens	protonmail	android	2022-08	u	
+css-hyphens	protonmail	desktop-webmail	2022-08	y	
+css-hyphens	protonmail	ios	2022-08	y	1
+css-hyphens	protonmail	android	2022-08	y	1
 css-hyphens	hey	desktop-webmail	2022-08	u	
 css-hyphens	mail-ru	desktop-webmail	2022-08	y	
 css-hyphens	fastmail	desktop-webmail	2022-08	u	
@@ -3819,9 +3819,9 @@ css-inert-attribute	samsung-email	android	2026-04	y
 css-inert-attribute	sfr	desktop-webmail	2026-04	u	
 css-inert-attribute	sfr	ios	2026-04	u	
 css-inert-attribute	sfr	android	2026-04	u	
-css-inert-attribute	protonmail	desktop-webmail	2026-04	u	
-css-inert-attribute	protonmail	ios	2026-04	u	
-css-inert-attribute	protonmail	android	2026-04	u	
+css-inert-attribute	protonmail	desktop-webmail	2026-04	a	1
+css-inert-attribute	protonmail	ios	2026-04	n	
+css-inert-attribute	protonmail	android	2026-04	n	
 css-inert-attribute	hey	desktop-webmail	2026-04	u	
 css-inert-attribute	mail-ru	desktop-webmail	2026-04	u	
 css-inert-attribute	fastmail	desktop-webmail	2026-04	u	
@@ -4680,9 +4680,9 @@ css-mask-image	samsung-email	android	2024-11	y
 css-mask-image	sfr	desktop-webmail	2024-03	u	
 css-mask-image	sfr	ios	2024-03	u	
 css-mask-image	sfr	android	2024-03	u	
-css-mask-image	protonmail	desktop-webmail	2024-11	u	
-css-mask-image	protonmail	ios	2024-11	u	
-css-mask-image	protonmail	android	2024-11	u	
+css-mask-image	protonmail	desktop-webmail	2024-11	a	1
+css-mask-image	protonmail	ios	2024-11	a	1
+css-mask-image	protonmail	android	2024-11	a	1
 css-mask-image	hey	desktop-webmail	2024-11	u	
 css-mask-image	mail-ru	desktop-webmail	2024-11	y	
 css-mask-image	fastmail	desktop-webmail	2024-11	u	
@@ -5541,9 +5541,9 @@ css-overflow-wrap	samsung-email	android	2022-08	y
 css-overflow-wrap	sfr	desktop-webmail	2022-08	u	
 css-overflow-wrap	sfr	ios	2022-08	u	
 css-overflow-wrap	sfr	android	2022-08	u	
-css-overflow-wrap	protonmail	desktop-webmail	2022-08	u	
-css-overflow-wrap	protonmail	ios	2022-08	u	
-css-overflow-wrap	protonmail	android	2022-08	u	
+css-overflow-wrap	protonmail	desktop-webmail	2022-08	y	
+css-overflow-wrap	protonmail	ios	2022-08	y	
+css-overflow-wrap	protonmail	android	2022-08	y	
 css-overflow-wrap	hey	desktop-webmail	2022-08	u	
 css-overflow-wrap	mail-ru	desktop-webmail	2022-08	y	
 css-overflow-wrap	fastmail	desktop-webmail	2022-08	u	
@@ -7481,9 +7481,9 @@ css-resize	sfr	desktop-webmail	2024-01	u
 css-resize	sfr	ios	2024-01	n	
 css-resize	sfr	android	2024-01	u	
 css-resize	thunderbird	macos	2024-01	u	
-css-resize	protonmail	desktop-webmail	2024-01	u	
+css-resize	protonmail	desktop-webmail	2024-01	a	3
 css-resize	protonmail	ios	2024-01	n	
-css-resize	protonmail	android	2024-01	u	
+css-resize	protonmail	android	2024-01	a	4
 css-resize	hey	desktop-webmail	2024-01	u	
 css-resize	mail-ru	desktop-webmail	2024-01	y	
 css-resize	fastmail	desktop-webmail	2024-01	u	
@@ -8232,9 +8232,9 @@ css-shape-margin	aol	android	2024-03	n
 css-shape-margin	yahoo	desktop-webmail	2024-03	n	
 css-shape-margin	yahoo	ios	2024-03	n	
 css-shape-margin	yahoo	android	2024-03	n	
-css-shape-margin	protonmail	desktop-webmail	2024-03	u	
-css-shape-margin	protonmail	ios	2024-03	u	
-css-shape-margin	protonmail	android	2024-03	u	
+css-shape-margin	protonmail	desktop-webmail	2024-03	y	
+css-shape-margin	protonmail	ios	2024-03	y	
+css-shape-margin	protonmail	android	2024-03	y	
 css-shape-margin	hey	desktop-webmail	2024-03	u	
 css-shape-margin	mail-ru	desktop-webmail	2024-03	y	
 css-shape-margin	fastmail	desktop-webmail	2024-03	u	
@@ -8268,9 +8268,9 @@ css-shape-outside	aol	android	2024-02	n
 css-shape-outside	yahoo	desktop-webmail	2024-02	n	
 css-shape-outside	yahoo	ios	2024-02	n	
 css-shape-outside	yahoo	android	2024-02	n	
-css-shape-outside	protonmail	desktop-webmail	2024-02	u	
-css-shape-outside	protonmail	ios	2024-02	u	
-css-shape-outside	protonmail	android	2024-02	u	
+css-shape-outside	protonmail	desktop-webmail	2024-02	y	
+css-shape-outside	protonmail	ios	2024-02	y	
+css-shape-outside	protonmail	android	2024-02	y	
 css-shape-outside	hey	desktop-webmail	2024-02	u	
 css-shape-outside	mail-ru	desktop-webmail	2024-02	y	
 css-shape-outside	fastmail	desktop-webmail	2024-02	u	
@@ -10903,6 +10903,9 @@ css-word-wrap	outlook	outlook-com	2022-05	y	3
 css-word-wrap	outlook	ios	2025-05	y	3
 css-word-wrap	outlook	android	2025-05	n	
 css-word-wrap	yahoo	desktop-webmail	2025-05	y	
+css-word-wrap	protonmail	desktop-webmail	2025-05	y	
+css-word-wrap	protonmail	ios	2024-11	a	4
+css-word-wrap	protonmail	android	2024-11	a	4
 css-writing-mode	apple-mail	macos	13	y	
 css-writing-mode	apple-mail	macos	15	y	
 css-writing-mode	apple-mail	ios	14	y	
