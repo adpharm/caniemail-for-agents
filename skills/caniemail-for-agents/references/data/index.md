@@ -1,7 +1,7 @@
 # caniemail feature index
 
-Snapshot: 2026-07-20 09:56:37 +0000 (api v1.0.4)
-Total features: 307
+Snapshot: 2026-09-16 13:05:00 +0000 (api v1.0.4)
+Total features: 308
 Rebuild: `python scripts/build_index.py`
 
 Format: `<slug> — <title> (<category>) — <keywords>`
@@ -245,6 +245,7 @@ Full detail per feature is one line in `features.jsonl` (grep `'^{"slug":"<slug>
 - `html-cellpadding` — cellpadding attribute (html) — 
 - `html-cellspacing` — cellspacing attribute (html) — 
 - `html-code` — <code> element (html) — 
+- `html-command-attribute` — command and commandfor attributes (html) — 
 - `html-comments` — HTML comments (html) — 
 - `html-del` — <del> element (html) — 
 - `html-dfn` — <dfn> element (html) — 
