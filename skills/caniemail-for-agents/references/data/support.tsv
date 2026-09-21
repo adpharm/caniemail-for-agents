@@ -3910,9 +3910,9 @@ css-inset	sfr	desktop-webmail	2024-05	u
 css-inset	sfr	ios	2024-05	u	
 css-inset	sfr	android	2024-05	u	
 css-inset	thunderbird	macos	2024-05	y	
-css-inset	protonmail	desktop-webmail	2024-05	u	
-css-inset	protonmail	ios	2024-05	u	
-css-inset	protonmail	android	2024-05	u	
+css-inset	protonmail	desktop-webmail	2024-05	n	1
+css-inset	protonmail	ios	2024-05	n	
+css-inset	protonmail	android	2024-05	y	
 css-inset	hey	desktop-webmail	2024-05	u	
 css-inset	mail-ru	desktop-webmail	2024-05	n	
 css-inset	fastmail	desktop-webmail	2024-05	u	
@@ -12063,6 +12063,51 @@ html-code	free-fr	desktop-webmail	2023-05	y
 html-code	t-online-de	desktop-webmail	2023-05	y	
 html-code	gmx	desktop-webmail	2023-04	y	
 html-code	web-de	desktop-webmail	2023-04	u	
+html-command-attribute	apple-mail	macos	16	y	
+html-command-attribute	apple-mail	ios	18.7	n	
+html-command-attribute	apple-mail	ios	26.9	y	
+html-command-attribute	gmail	desktop-webmail	2026-07	n	
+html-command-attribute	gmail	ios	2026-07	n	
+html-command-attribute	gmail	android	2026-07	n	
+html-command-attribute	gmail	mobile-webmail	2026-07	n	
+html-command-attribute	orange	desktop-webmail	2026-07	u	
+html-command-attribute	orange	ios	2026-07	u	
+html-command-attribute	orange	android	2026-07	u	
+html-command-attribute	outlook	windows	2007	n	
+html-command-attribute	outlook	windows	2010	n	
+html-command-attribute	outlook	windows	2013	n	
+html-command-attribute	outlook	windows	2016	n	
+html-command-attribute	outlook	windows	2019	n	
+html-command-attribute	outlook	windows-mail	2026-07	n	
+html-command-attribute	outlook	macos	2026-07	n	
+html-command-attribute	outlook	outlook-com	2026-07	n	
+html-command-attribute	outlook	ios	2026-07	u	
+html-command-attribute	outlook	android	2026-07	n	
+html-command-attribute	thunderbird	macos	152	y	
+html-command-attribute	yahoo	desktop-webmail	2026-07	n	
+html-command-attribute	yahoo	ios	2026-07	n	
+html-command-attribute	yahoo	android	2026-07	n	
+html-command-attribute	aol	desktop-webmail	2026-07	n	
+html-command-attribute	aol	ios	2026-07	n	
+html-command-attribute	aol	android	2026-07	n	
+html-command-attribute	samsung-email	android	6.2.13	a	1
+html-command-attribute	sfr	desktop-webmail	2026-07	u	
+html-command-attribute	sfr	ios	2026-07	u	
+html-command-attribute	sfr	android	2026-07	u	
+html-command-attribute	protonmail	desktop-webmail	2026-07	a	2
+html-command-attribute	protonmail	ios	2026-07	n	
+html-command-attribute	protonmail	android	2026-07	n	
+html-command-attribute	hey	desktop-webmail	2026-07	u	
+html-command-attribute	mail-ru	desktop-webmail	2026-07	u	
+html-command-attribute	fastmail	desktop-webmail	2026-07	u	
+html-command-attribute	laposte	desktop-webmail	2026-078	u	
+html-command-attribute	gmx	desktop-webmail	2026-07	n	
+html-command-attribute	gmx	ios	2026-07	u	
+html-command-attribute	gmx	android	2026-07	n	
+html-command-attribute	web-de	desktop-webmail	2026-07	n	
+html-command-attribute	web-de	ios	2026-07	u	
+html-command-attribute	web-de	android	2026-07	n	
+html-command-attribute	ionos-1and1	desktop-webmail	2026-07	n	
 html-comments	apple-mail	macos	2024-04	y	
 html-comments	apple-mail	ios	2024-04	y	
 html-comments	gmail	desktop-webmail	2024-04	y	
@@ -13434,9 +13479,13 @@ html-marquee	ionos-1and1	android	2022-11	n
 html-meta-color-scheme	apple-mail	macos	16	y	
 html-meta-color-scheme	apple-mail	ios	12.4	n	
 html-meta-color-scheme	gmail	desktop-webmail	2023-09	n	
+html-meta-color-scheme	gmail	desktop-webmail	2026-09	n	
 html-meta-color-scheme	gmail	ios	2019-09	n	
+html-meta-color-scheme	gmail	ios	2026-09	a	1
 html-meta-color-scheme	gmail	android	2023-09	n	
+html-meta-color-scheme	gmail	android	2026-09	a	1
 html-meta-color-scheme	gmail	mobile-webmail	2023-09	n	
+html-meta-color-scheme	gmail	mobile-webmail	2026-09	n	
 html-meta-color-scheme	orange	desktop-webmail	2021-03	u	
 html-meta-color-scheme	orange	ios	2020-01	u	
 html-meta-color-scheme	orange	android	2020-01	u	
@@ -13717,26 +13766,36 @@ html-popover	yahoo	android	2024-03	n
 html-popover	aol	desktop-webmail	2023-09	n	
 html-popover	aol	ios	2023-09	n	
 html-popover	aol	android	2023-09	u	
+html-popover	aol	android	2026-07	n	
 html-popover	samsung-email	android	5.0.10.2	u	
 html-popover	samsung-email	android	6.1.90.16	a	1
 html-popover	sfr	desktop-webmail	2024-03	y	
 html-popover	sfr	ios	2024-03	n	
 html-popover	sfr	android	2024-03	y	
 html-popover	thunderbird	macos	115.2	n	
+html-popover	thunderbird	macos	152	a	3
 html-popover	protonmail	desktop-webmail	2023-09	n	
+html-popover	protonmail	desktop-webmail	2026-07	y	
 html-popover	protonmail	ios	2023-09	n	
+html-popover	protonmail	ios	2026-07	y	4
 html-popover	protonmail	android	2023-09	u	
+html-popover	protonmail	android	2026-07	y	4
 html-popover	hey	desktop-webmail	2023-09	n	
 html-popover	mail-ru	desktop-webmail	2024-01	a	
 html-popover	fastmail	desktop-webmail	2023-09	n	
 html-popover	laposte	desktop-webmail	2021-08	u	
 html-popover	gmx	desktop-webmail	2022-06	u	
+html-popover	gmx	desktop-webmail	2026-07	n	
 html-popover	gmx	ios	2022-06	u	
+html-popover	gmx	ios	2026-07	y	
 html-popover	gmx	android	2022-06	u	
 html-popover	web-de	desktop-webmail	2022-06	u	
+html-popover	web-de	desktop-webmail	2026-07	n	
 html-popover	web-de	ios	2022-06	u	
+html-popover	web-de	ios	2026-07	y	
 html-popover	web-de	android	2022-06	u	
 html-popover	ionos-1and1	desktop-webmail	2022-06	u	
+html-popover	ionos-1and1	desktop-webmail	2026-07	n	
 html-popover	ionos-1and1	android	2022-06	u	
 html-pre	apple-mail	macos	2023-04	y	
 html-pre	apple-mail	ios	2023-04	y	
@@ -15578,15 +15637,20 @@ image-svg	apple-mail	macos	14	y
 image-svg	apple-mail	ios	13	n	
 image-svg	apple-mail	ios	14	n	
 image-svg	apple-mail	ios	15	y	
+image-svg	apple-mail	ios	26	y	
 image-svg	gmail	desktop-webmail	2020-02	n	
 image-svg	gmail	desktop-webmail	2023-01	n	
 image-svg	gmail	desktop-webmail	2024-07	n	
+image-svg	gmail	desktop-webmail	2026-09	a	2
 image-svg	gmail	ios	2020-02	a	1
 image-svg	gmail	ios	2023-01	a	1
+image-svg	gmail	ios	2026-09	a	2
 image-svg	gmail	android	2020-02	a	1
 image-svg	gmail	android	2023-01	a	1
+image-svg	gmail	android	2026-09	a	2
 image-svg	gmail	mobile-webmail	2020-02	n	
 image-svg	gmail	mobile-webmail	2023-01	n	
+image-svg	gmail	mobile-webmail	2026-09	a	2
 image-svg	outlook	windows	2007	n	
 image-svg	outlook	windows	2010	n	
 image-svg	outlook	windows	2013	n	
@@ -15605,9 +15669,11 @@ image-svg	samsung-email	android	9.0	y
 image-svg	thunderbird	windows	2020-02	y	
 image-svg	thunderbird	macos	68.4	y	
 image-svg	aol	desktop-webmail	2020-02	y	
+image-svg	aol	desktop-webmail	2026-09	y	
 image-svg	aol	ios	2020-02	y	
 image-svg	aol	android	2020-02	y	
 image-svg	yahoo	desktop-webmail	2020-02	y	
+image-svg	yahoo	desktop-webmail	2026-09	y	
 image-svg	yahoo	ios	2020-02	y	
 image-svg	yahoo	android	2020-02	y	
 image-svg	orange	desktop-webmail	2020-02	y	
